@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="467" it="0" lt="465" ct="441" ts="1550761425880" s="true" lb="getLaGou" rc="200" rm="OK" tn="断言使用 1-1" dt="text" by="318" sby="2389" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>

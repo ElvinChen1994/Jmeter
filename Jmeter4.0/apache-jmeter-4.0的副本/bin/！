@@ -1,0 +1,15 @@
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export LS_OPTIONS='--color=auto' # 如果没有指定，则自动选择颜色
+export CLICOLOR='Yes' #是否输出颜色
+export LSCOLORS='CxfxcxdxbxegedabagGxGx' #指定颜色
+
+export PATH="${PATH}:/Users/chenzhengyang/Documents/android-sdk-macosx/platform-tools" 
+export PATH="${PATH}:/Users/chenzhengyang/Documents/android-sdk-macosx/tools" 
+export ANT_HOME=/Users/chenzhengyang/Documents/apache-ant-1.9.13
+export PATH=${PATH}:${ANT_HOME}/bin
+export JAVA_HOME=/Library/Java/JavaMachines/jdk1.8.0_161.jdk/Contents/Home
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:/Users/Library/apache-tomcat-8.5.34/bin:$PATH

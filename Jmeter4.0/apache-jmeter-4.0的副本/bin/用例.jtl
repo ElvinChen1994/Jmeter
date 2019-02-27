@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1550807122847,648,getLaGou,200,OK,断言使用 1-1,text,true,,318,2389,1,1,644,0,596
